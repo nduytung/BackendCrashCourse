@@ -1,0 +1,62 @@
+h1 {
+  font-size: 50px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: -50px;
+}
+
+.navlist {
+  display: flex;
+}
+
+.navlist > a {
+  margin: 0 10px;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.post-input {
+  width: 400px;
+  height: 25px;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 5px auto;
+}
+
+.post-placeholder {
+  width: 400px;
+  height: 200px;
+  margin: 5px auto;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.form {
+  margin: 0 auto;
+  justify-self: center;
+}
+
+.post-btn {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 8px;
+  font-size: 20px;
+}
